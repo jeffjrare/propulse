@@ -1,0 +1,12 @@
+{
+  "name": "pro",
+  "displayName": "propulse",
+  "version": "0.0.1",
+  "description": "Architecture, product, process, IT ecosystem, costs and compliance: one dossier per engagement, one entry point, the next step always proposed.",
+  "author": {
+    "name": "Jeff Girard"
+  },
+  "repository": "https://github.com/jeffjrare/propulse",
+  "license": "MIT",
+  "keywords": ["architecture", "analysis", "consulting", "decision", "law-25", "claude-code"]
+}

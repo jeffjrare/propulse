@@ -1,0 +1,4 @@
+# Public framework repository: no engagement data. A dossier lives in its own project's repository.
+dossier/
+*.local.*
+node_modules/
