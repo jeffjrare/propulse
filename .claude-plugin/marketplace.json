@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "pro",
-      "version": "0.0.1",
+      "version": "0.1.0",
       "source": "./plugin",
       "description": "Architecture, product, process, IT ecosystem, costs and compliance: one dossier per engagement, one entry point, the next step always proposed.",
       "category": "productivity"

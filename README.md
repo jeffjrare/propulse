@@ -7,15 +7,18 @@ You talk normally ("new engagement for a company that wants to replace its CRM",
 propulse finds the dossier, picks the step, applies good practice without being asked, keeps facts, decisions and open
 questions in one place, and always proposes the next step.
 
-**Status: skeleton, 2026-10-29.** See `docs/VISION.md` and `docs/NEXT-STEPS.md`.
+**Status: V0, 2026-10-31: the entry point works without the CLI.** See `docs/VISION.md` and `docs/NEXT-STEPS.md`.
 
 ## Install
 
-In Claude Code:
+In Claude Code, once:
 
 ```
-/plugin install pro --marketplace jeffjrare/propulse
+/plugin marketplace add jeffjrare/propulse
+/plugin install pro@propulse
 ```
+
+Then restart Claude Code. To update: `/plugin marketplace update propulse`.
 
 An engagement's dossier always lives in its own project's repository (`dossier/`), never in this one.
 
