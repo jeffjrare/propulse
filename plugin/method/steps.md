@@ -6,7 +6,7 @@ The default order. It is not a checklist: a step is skipped when the engagement 
 
 | # | Step | Produces | Done when | Template, modules |
 |---|---|---|---|---|
-| 0 | **Opening** | `DOSSIER.md`, brief in `raw/`, first facts and questions | Engagement type, decision-maker and request are known or "To be established" | `dossier-format.md` |
+| 0 | **Opening** | `DOSSIER.md`, brief in `raw/`, first facts and questions | Engagement type, decision-maker and request are known or "To be established". Never ends a turn: framing follows at once | `dossier-format.md` |
 | 1 | **Framing** | Framing sheet DEC-YYYY-NNN; ranked pain points; questionnaire on what exists | The question to decide fits in one sentence; the questionnaire is ready to send | `templates/framing-sheet.md` |
 | 2 | **Current state** | Facts: tools, processes, data, volumes, current costs | Questionnaire answers are facts; what is missing is in questions | `architecture`, `process` |
 | 3 | **Vision and service** | Personas, journeys, service blueprint (stages × layers) | The decision-maker recognises their business in it | `product` |

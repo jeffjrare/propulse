@@ -12,14 +12,15 @@ When a value is missing, use the defaults below and say so under "Confidence and
 
 1. Read everything provided (message, attachments, forwarded email, `raw/`, `FACTS.md`). Never ask a question the material
    already answers.
-2. Ask the missing questions in one message, six at most, chosen from:
+2. Do not ask before writing. List the missing answers, six at most for the decision-maker, chosen from:
    - What problem, experienced by whom, how often?
    - What does it cost today (time, money, risk)?
    - Who would be the business owner, accountable for the value?
    - Which categories of data are involved?
    - Which systems must the solution exchange with?
    - What is the real deadline, and why?
-3. If the person does not know, write "To be established". A missing answer never blocks the sheet.
+3. Each becomes "To be established" in the sheet and a question in `QUESTIONS.md`, sent in the questionnaire on what
+   exists. A missing answer never blocks the sheet.
 4. Write the sheet from the template.
 5. Check it against the checklist and fix it before handing it over.
 6. Record it: `sources/DEC-YYYY-NNN-framing.md`, and a line in `DECISIONS.md` (status Open).
@@ -27,7 +28,9 @@ When a value is missing, use the defaults below and say so under "Confidence and
 
 ## Rules
 
-- One page: about 500 words, not counting the options table.
+- One page: 500 words at most, not counting the front matter and the tables. Draft to the section budgets (question 30,
+  problem 90, value 60, scope 100, criteria 30, principles 80, confidence 60) so the first draft fits. Count with
+  `awk '/^---$/{f++;next} f>=2 && !/^\|/' <sheet> | wc -w`.
 - The question to decide fits in one sentence that calls for a decision: "Should we…", "Which option should we choose for…".
 - You frame, you do not recommend. No option is presented as the winner in the sheet.
 - The options always include: do nothing, reuse what exists, buy, build on the internal platform. An option is removed only

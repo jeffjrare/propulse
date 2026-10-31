@@ -55,7 +55,8 @@ Recipients: client, counsel, vendor, the user, us (to research). A question exis
 
 ## STATE.md (generated)
 
-- Where things stand, dated, in three lines; the current step and **the next step**.
+- Where things stand, dated, in three lines; the current step and **the next step**: why now, and the template and
+  expertise modules it will load.
 - Deliverables: title, current revision, published link, date, facts and decisions it cites.
 - Pending decisions by due date. Open questions by recipient.
 - Alerts: a deliverable citing a fact changed since its revision, a reference to a stale revision, a duplicated prefix.
