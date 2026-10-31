@@ -55,5 +55,4 @@ decisions, revisions), generate `STATE.md`. Not built yet.
 
 ## Open questions (for the user)
 
-1. **Deliverable medium.** HTML artifacts for everything, or Claude Docs for documents people comment on and artifacts for
-   interactive pages?
+None. The deliverable medium is decided: `D-deliverable-medium`.

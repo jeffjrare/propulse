@@ -55,7 +55,11 @@ re-reads the whole context: never read a file twice, never edit registers one ca
    lines), in the project repository. Update the registers (facts, decisions, questions), then `STATE.md`: the next step,
    why, and the template and modules it will load. In the same call, check length with `wc -w` against the template's
    limit, and fix before handing over.
-6. **Always end like this:**
+6. **Publish what is ready to send**, private, on the medium `expertise/house-style.md § Deliverable forms` gives it
+   (a document → Claude Docs; an interactive page → HTML artifact), loading that medium's guidance first. A revision
+   updates the same link. Record the link in `deliverables/` and `STATE.md`. If no document connector is attached, say so
+   in one line and hand over the Markdown. Internal sources (registers, notes) are not published.
+7. **Always end like this:**
    - what was done, in two or three bullets;
    - new questions, **grouped by recipient** (client, counsel, vendor, the user), ready to send;
    - **"Next step: … — shall we?"**, chosen by `method/steps.md § Picking the next step`.

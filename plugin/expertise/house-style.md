@@ -1,8 +1,9 @@
 # House style for deliverables
 
-**As of:** 2026-10-29
+**As of:** 2026-10-31
 
-Applies to every deliverable. For a page published as an artifact, also load the artifact design guidance.
+Applies to every deliverable. Before publishing, load the medium's own guidance (the document connector's docs skill or
+guide; the artifact design guidance for a page).
 
 ## Structure
 
@@ -23,13 +24,15 @@ Applies to every deliverable. For a page published as an artifact, also load the
 
 ## Deliverable forms
 
-| Form | For |
-|---|---|
-| Deck | Presenting to the decision-maker |
-| Interactive page | Exploring: filters, a calculator with editable assumptions |
-| Document | Reading, commenting, forwarding |
-| Clickable demo | Validating by playing |
-| Dossier map | Getting oriented: deliverables, decisions, questions (generated from `STATE.md`) |
+| Form | For | Medium (`D-deliverable-medium`) |
+|---|---|---|
+| Document | Reading, commenting, forwarding: framing sheet, questionnaire, grid, decision note, file for counsel | Claude Docs (exports to Word or PDF) |
+| Deck | Presenting to the decision-maker | Slides artifact type, if the account has one |
+| Interactive page | Exploring: filters, a calculator with editable assumptions | HTML artifact |
+| Clickable demo | Validating by playing | HTML artifact |
+| Dossier map | Getting oriented: deliverables, decisions, questions (generated from `STATE.md`) | HTML artifact |
+
+Everything is published **private**; the user shares. Registers and `STATE.md` are never published as such.
 
 ## Visual identity
 

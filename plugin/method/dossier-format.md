@@ -14,7 +14,7 @@ dossier/
   DECISIONS.md   register of decisions DEC-YYYY-NNN
   QUESTIONS.md   register of questions Q-NNN
   sources/       Markdown sources: framing sheet, grid, note, ADR, analyses (DEC-YYYY-NNN-framing.md, …)
-  deliverables/  HTML pages and their published links (one file per deliverable)
+  deliverables/  one file per published deliverable: medium, link, current revision, source in sources/
   raw/           documents received, as received (brief, answers, quotes); never modified
 ```
 
@@ -60,6 +60,12 @@ Recipients: client, counsel, vendor, the user, us (to research). A question exis
 - Deliverables: title, current revision, published link, date, facts and decisions it cites.
 - Pending decisions by due date. Open questions by recipient.
 - Alerts: a deliverable citing a fact changed since its revision, a reference to a stale revision, a duplicated prefix.
+
+## Published deliverables
+
+The Markdown in `sources/` is the source; a Claude Doc or an artifact is its publication, updated in place at each
+revision (same link). Before revising a published Doc, read it: the user's edits and the client's comments there are
+information received.
 
 ## References in deliverables
 

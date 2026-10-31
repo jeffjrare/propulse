@@ -10,6 +10,7 @@
 | D-one-fact-one-source | 2026-10-29 | arch | facts | A fact lives once in the dossier's FACTS.md; deliverables cite it and never copy it. | Active |
 | D-cli-owns-structure | 2026-10-29 | arch | cli | The CLI owns IDs, registers, cross-references and the dossier map; the model owns judgment. | Active |
 | D-english-repo | 2026-10-29 | arch | language | The repository is in English; deliverables are written in the dossier's language. | Active |
+| D-deliverable-medium | 2026-10-31 | prod | deliverables | Documents people read and comment on go to Claude Docs; interactive pages, demos and the dossier map are HTML artifacts; all private, the Markdown in `sources/` stays the source. | Active |
 
 ---
 
@@ -63,3 +64,13 @@ ends with the proposed next step.
 **Date:** 2026-10-29
 **Status:** Active
 **Basis:** mandate — the maintainer, 2026-10-29: the repository is in English.
+
+## D-deliverable-medium — Claude Docs for documents, artifacts for interactive pages
+
+**Scope:** prod
+**Topic:** deliverables
+**Date:** 2026-10-31
+**Status:** Active
+**Basis:** mandate — the maintainer, 2026-10-31, on the first end-to-end test: the framing sheet and questionnaire came out
+as Markdown with nothing the user could forward. A client comments on and forwards documents (Docs, exportable to Word or
+PDF); calculators, demos and the dossier map need a page (artifact).
